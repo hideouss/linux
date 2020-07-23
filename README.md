@@ -5,3 +5,4 @@ edit vedio:https://kdenlive.org/en/download/
 boot loader:https://www.gnu.org/software/grub/grub-download.html
 fedora vpn:
 build desktop:
+download embedded video via chrome developer tool:
