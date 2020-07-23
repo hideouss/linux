@@ -6,5 +6,5 @@ boot loader:https://www.gnu.org/software/grub/grub-download.html
 fedora vpn:
 build desktop:
 download video via chrome developer tool:
-chrome web store(chrome extention and app) download video:https://chrome.google.com/webstore/category/extensions
+chrome store(chrome extention and app) download video:https://chrome.google.com/webstore/category/extensions
 
