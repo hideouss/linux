@@ -4,7 +4,7 @@ remove Fedora:https://docs.fedoraproject.org/en-US/Fedora/15/html/Installation_G
 edit vedio:https://kdenlive.org/en/download/
 boot loader:https://www.gnu.org/software/grub/grub-download.html
 fedora vpn:
-build desktop:
 download video via chrome developer tool:
 chrome store(chrome extention and app) download video:https://chrome.google.com/webstore/category/extensions
-
+laptop hardware:
+desktop hardware:
