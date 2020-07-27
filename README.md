@@ -6,5 +6,6 @@ boot loader:https://www.gnu.org/software/grub/grub-download.html
 fedora vpn:
 download video via chrome developer tool:blueconvert
 chrome store(chrome extention and app) download video:https://chrome.google.com/webstore/category/extensions
+wifi6:
 
 
