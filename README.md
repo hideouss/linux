@@ -12,7 +12,7 @@ a web site has multiple ip address:https://www.quora.com/Why-do-I-see-two-differ
 open connect,
 ipsec+openvpn(tuobo vpn), open vpn , tinc vpn,
 usb flash drive location linux_fedora:/run/media/z/5CEB-D2C5/'System Volume Information'/content...
-
+program who could read shell script:
 
 
 
