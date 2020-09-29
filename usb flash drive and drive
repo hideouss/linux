@@ -12,7 +12,7 @@ delete and format a usb drive in  linux :
 Ext4: only in linux    NTFS: only in windows   FAT:all systems and devices
 when a usb drive plug into linux  it mount automatically in  /run/media/usr_name/usb_name   'lsusb'   'mount'
 find usb drive device name:'fdisk -l'      'dmesg':store kernel's operations information 
-linux kde partition manager 
+linux kde partition manager  
 
 
 
