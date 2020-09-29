@@ -16,86 +16,9 @@ linux kde partition manager
 a usb drive whether be detected no relation with if it show up in file manager 
 mount a partion usb drive in linux : create mount point
 mount relation partition   first partion then could mount ???
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+mount /dev/sda2 /home/z/mount_point       cheak mount information : mount | grep sda2     if has mounted  usr could access usb data    cd /home/z/mount_point
+unmount /home/z/mount_point      
+permanent mount :   edit /dev/fstab  file     one: /dev/sda2    /home/z/mount_point    vfat defaulits 0 0
+two: /dev/disk/by-uuid/uuid_number_replace    /home/z/mount_point    vfat  0  0   
+mount -a    mount all not mounted devices 
 
