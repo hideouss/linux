@@ -1,7 +1,10 @@
 first of all    hardware and kernel both support fan speed control
-lm-sensors;fancontrol
+lm_sensors;fancontrol
 configuring or completely stopping fans on high cpu/system load may result in permanently damaged hardware
-
+laptop usrs should be aware how cool system works  
+laptops have a single fan for both cpu and gpu and cools both at the same time     some laptops have two fans for cpu and gpu but the first fan cools down 
+cpu and gpu at the same time while the other one cools cpu only   
+in some cases you cannot use fancontrol script due to incompatible cooling architecture (e.g. one fan for both cpu and gpu )
 
 
 
