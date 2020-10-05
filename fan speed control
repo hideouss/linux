@@ -1,0 +1,17 @@
+first of all    hardware and kernel both support fan speed control
+lm-sensors;fancontrol
+configuring or completely stopping fans on high cpu/system load may result in permanently damaged hardware
+
+
+
+
+
+
+
+
+
+
+
+
+
+
