@@ -15,7 +15,7 @@ git add can be used when adding a new file to git     modifying contents of an e
 2:git add modify_file_name       git commit -m "commit message"     git push -u url_replace_name master
 3:add a file     first add a file in local terminal      git add add_file_name      git commit -m "commit message"      git push -u replace_url_name master 
 4:delete a file    fitst delete local file   rm file_name      git add file_name    git commit -m "commit message"   git push -u replace_url_name master 
-
+actual important is know who is  under verison control  like has a .git file    delete .git  will quit verison control  
 
 
 
