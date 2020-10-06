@@ -5,7 +5,7 @@ create a new branch and switch into there then create a file  and  then  git add
 switch branch    git checkout branch_name 
 delete local branch  first know which branch i am     git branch -d branch_name   
 delete server branch   git push -d origin branch
-
+rm -rf   is useful   
 
 
 
