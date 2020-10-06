@@ -8,6 +8,14 @@
 8:connect local to remote like github     git remote add url_replace_name url(like github repository)
 9:push local code to remote like github    git push -u url_replace_name master     need username and password
 remove git version control:just delete .git    rm -rf .git 
+basic git operations:clone modify add delete files in git    
+git add can be used when adding a new file to git     modifying contents of an existing file   deleting a file in git
+1:clone    local is empty    find the clone https    git clone clone_https
+2:modify a file      first change local terminal file content   now could run git diff see the differ  (if has runed git add now must git diff --cache see differ) 
+2:git add modify_file_name       git commit -m "commit message"     git push -u url_replace_name master
+3:add a file     first add a file in local terminal      git add add_file_name      git commit -m "commit message"      git push -u replace_url_name master 
+4:delete a file    fitst delete local file   rm file_name      git add file_name    git commit -m "commit message"   git push -u replace_url_name master 
+
 
 
 
