@@ -1,0 +1,16 @@
+ls is for file not executable command 
+PATH : an environment variable    could tell shell which directory to search for executable files
+environment variable tell shell how to behave as user works at command line or shell scripts(programs writtrn in a shell programming language)
+a shell is a program pvovides text-only user interface for unix-like os    its primary function is to read commands that typed in command line and then execute
+such as use ls not /user/bin/ls     
+env;use a pipe(vertical bar character) to transfer the env output to the grep filter and use PATH as an augument to grep     env | grep PATH     echo $PATH
+change PATH environment variable temporary: PATH="directory:$PATH"        
+permanent PATH environment variable change:export PATH=$PATH:directory      put in user home directory .bashrc   or .bash_profile 
+error  bash: swap_two_number: command not found...
+
+
+
+
+
+
+
