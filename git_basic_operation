@@ -20,4 +20,60 @@ git revert to past commit(version):
 see git special commit content in snapshot :
 git could revert commit or stage area or work tree:
 current directory is under git manage  because of .git  whether sub directory is under git manage:
+git add wrong information so how to manage stage area:
+why not direct commit has to add to staging area then commit  stage differ commit  why i need stage before commit:      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
