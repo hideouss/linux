@@ -18,5 +18,6 @@ git add can be used when adding a new file to git     modifying contents of an e
 actual important is know who is  under verison control  like has a .git file    delete .git  will quit verison control  
 git revert to past commit(version):
 see git special commit content in snapshot :
-
+git could revert commit or stage area or work tree:
+current directory is under git manage  because of .git  whether sub directory is under git manage:
 
