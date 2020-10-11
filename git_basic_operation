@@ -26,7 +26,7 @@ just add but not commit what it looks like:
 if i new a file in git but not track it then i delete the file  the file will lose
 local git repository connect to remote repository: git remote
 when i clone a repository from remote server git automatically remember connection for me  it auto calls remote as origi   
-
+git add could choose what to add but git commit only whole not piece like other souce manage tools  it's snapshot
 
 
 
