@@ -23,7 +23,9 @@ current directory is under git manage  because of .git  whether sub directory is
 git add wrong information so how to manage stage area:
 why not direct commit has to add to staging area then commit  stage differ commit  why i need stage before commit:      
 just add but not commit what it looks like:
-
+if i new a file in git but not track it then i delete the file  the file will lose
+local git repository connect to remote repository: git remote
+when i clone a repository from remote server git automatically remember connection for me  it auto calls remote as origi   
 
 
 
