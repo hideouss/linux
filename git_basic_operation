@@ -27,14 +27,13 @@ if i new a file in git but not track it then i delete the file  the file will lo
 local git repository connect to remote repository: git remote
 when i clone a repository from remote server git automatically remember connection for me  it auto calls remote as origi   
 git add could choose what to add but git commit only whole not piece like other souce manage tools  it's snapshot
-git restore to git know state
-
-
-
-
-
-
-
+git restore to git know state 
+SHA1 40-digits 0x form:calculate object content 
+echo "s" >> file11.txt | git hash-object --stdin; echo "s" | git hash-object --stdin;
+SHA1 hashes based on content if content is same it  will be same  
+.git's objects : blob(binary data) tree commit tag
+blob(single file):git show SHA-1    tree(contain pointers to bolbs trees):git -ls-tree SHA-1 
+commit(tree parent author commiter commit message): git show -s --pretty=raw SHA-1
 
 
 
