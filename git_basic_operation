@@ -34,8 +34,9 @@ SHA1 hashes based on content if content is same it  will be same
 .git's objects : blob(binary data) tree commit tag
 blob(single file):git show SHA-1    tree(contain pointers to blobs trees):git -ls-tree SHA-1 
 commit(tree parent author commiter commit message): git show -s --pretty=raw SHA-1
-
-
+.git:tree -L 1:   HEAD:pointer to current branch     refs:pointers to branches
+git configure username and e-mail  ~/.gitconfig     git clone could operate multi-protocol(transfer protocol) ssh://  https:// git://
+git commit -a : shoutcut could use but except new file   
 
 
 
