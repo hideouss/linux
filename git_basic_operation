@@ -37,8 +37,8 @@ commit(tree parent author commiter commit message): git show -s --pretty=raw SHA
 .git:tree -L 1:   HEAD:pointer to current branch     refs:pointers to branches
 git configure username and e-mail  ~/.gitconfig     git clone could operate multi-protocol(transfer protocol) ssh://  https:// git://
 git commit -a : shoutcut could use but except new file   
-
-
+git diff   git diff --cached
+git branch:list branches   git branch branch1:create a new branch named branch1    git checkout branch1 : switch to branch branch1
 
 
 
