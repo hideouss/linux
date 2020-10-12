@@ -54,28 +54,3 @@ commit(tree parent author commiter commit message): git show -s --pretty=raw SHA
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
