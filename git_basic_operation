@@ -32,15 +32,19 @@ SHA1 40-digits 0x form:calculate object content
 echo "s" >> file11.txt | git hash-object --stdin; echo "s" | git hash-object --stdin;
 SHA1 hashes based on content if content is same it  will be same  
 .git's objects : blob(binary data) tree commit tag
-blob(single file):git show SHA-1    tree(contain pointers to blobs trees):git -ls-tree SHA-1 
+blob(single file):git show SHA-1    tree(contain pointers to blobs trees):git ls-tree SHA-1 
 commit(tree parent author commiter commit message): git show -s --pretty=raw SHA-1
 .git:tree -L 1:   HEAD:pointer to current branch     refs:pointers to branches
 git configure username and e-mail  ~/.gitconfig     git clone could operate multi-protocol(transfer protocol) ssh://  https:// git://
 git commit -a : shoutcut could use but except new file   
 git diff   git diff --cached
 git branch:list branches   git branch branch1:create a new branch named branch1    git checkout branch1 : switch to branch branch1
-
-
+git merge branch1;git branch -d/D branch1;
+normally,a merge results in a merge commit with two parents   but if a current branch has not diverged from the other:fast forward merge
+in a word   when i merged whether has a new commit         asterisk + brace expansion(how to operate like this just see the source code)
+see objects database content : git cat-file -p SHA-1     see object type : git cat-file -t SHA-1
+create a new file and save its content in database: echo 'version 1' > test.txt; git hash-object -w test.txt;
+ 
 
 
 
