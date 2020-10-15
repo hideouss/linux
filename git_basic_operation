@@ -45,7 +45,7 @@ in a word   when i merged whether has a new commit         asterisk + brace expa
 see objects database content : git cat-file -p SHA-1     see object type : git cat-file -t SHA-1
 create a new file and save its content in database: echo 'version 1' > test.txt; git hash-object -w test.txt;
 git blob only store file content not store file name            biob pointer point to its content no file name 
-git update-index --add filename(if not save a file already with hash-object it will do automatically for you)
+git update-index --add filename(if not save a file already with hash-object it will create automatically for you)
 git ls-files(see what add to index)    
 index is only temporary could add(including delet operation) files when index changes the prevoius state will lose how to save 
 snapshot permanently?   git index is temporary snapshot of repository
@@ -53,6 +53,8 @@ blob point to file content     tree point to blob and tree         git write-tre
 if start at a tree could rebuild everything it points to       
 echo "commit message" | git commit-tree tree-SHA1
 1: git update-index --add file1.txt    2:git write-tree  generate tree SHA1 3: echo "commit message" | git commit-tree tree-SHA1
+when has some files in index  it is temporary stoer  if index change  files will lose ?
+if i write tree in index it will permanent store it will not lose       if want to connect trees create commit
 
 
  
