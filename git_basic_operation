@@ -45,6 +45,33 @@ in a word   when i merged whether has a new commit         asterisk + brace expa
 see objects database content : git cat-file -p SHA-1     see object type : git cat-file -t SHA-1
 create a new file and save its content in database: echo 'version 1' > test.txt; git hash-object -w test.txt;
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 
