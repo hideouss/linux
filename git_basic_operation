@@ -53,7 +53,7 @@ blob point to file content     tree point to blob and tree         git write-tre
 if start at a tree could rebuild everything it points to       
 echo "commit message" | git commit-tree tree-SHA1
 1: git update-index --add file1.txt    2:git write-tree  generate tree SHA1 3: echo "commit message" | git commit-tree tree-SHA1
-when has some files in index  it is temporary stoer  if index change  files will lose ?
+if  my files store in objects database i will not lose it otherwise i will lose it 
 if i write tree in index it will permanent store it will not lose       if want to connect trees create commit
 
 
