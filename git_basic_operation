@@ -55,11 +55,7 @@ echo "commit message" | git commit-tree tree-SHA1
 1: git update-index --add file1.txt    2:git write-tree  generate tree SHA1 3: echo "commit message" | git commit-tree tree-SHA1
 if  my files store in objects database i will not lose it otherwise i will lose it 
 if i write tree in index it will permanent store it will not lose       if want to connect trees create commit
-
-
- 
- 
- 
+switch branch : git checkout branch   
  
  
  
