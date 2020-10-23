@@ -1,5 +1,0 @@
-open web browser in python script: python webbrower module   imoprt webbrowser
-python build web crawler:scrapy(web-crawling framework written in python)
-python build web app(via python web framework):django flask
-
-
