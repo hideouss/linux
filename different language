@@ -1,14 +1,21 @@
-.c .py .sh 
-script file first must begin with #! python interpreter path/bash interpreter path(/bin/bash)
-key is   couce code  to  executable
-edit .c source code    then compile to execute file   gcc souce_code_name.c -o execute_name
-edit .sh source code  then to execute it run bash(bash interpreter) souce_code_name.sh     
-another is set execute permission to source_code_name.sh       chmod a+x souce_code_name.sh
-edit .py source code then to execute it run python(python interpreter) source_code_.py    interactive with python in python interpreter  
-another is set execute permission to source code .py  
-find python interpreter path in current python intrepreter/script(interactive):import sys  print(sys.executable)
-
-
+key is   couce code  to  executable(bin)   not revert
+c: gcc hi.c -o hi_c
+divide souce code in multi file:
+bash script:#!bash interpreter path(nash bang)  chmod a+x hi     ./hi     
+bash shell(default installed) is only a type of unix shell    bash script is a type of shell script    bash is a unix shell
+module :
+shell script:
+python:#!python interpreter path(bash bang  which python  whereis python)  chmod a+x .py    ./hi.py
+no hash bang   chmod a+x hi.py   python hi.py         
+module:in python interpreter   import hi(module name)
+use module function syntax:mudule_name.function_name    built-in module   built-in function
+module could contain function  all type variables(array dictionary object)
+rename module: import module as module_rename     
+import module parts:from module import parts_name but now   when use parts code  no not use module name use parts_name  
+package:
+javascript:
+switch different shell : bash shell syntax like bash syntax     tcsh shell syntax like c++ syntax    
+sudo dnf install tcsh;cat /etc/shells | grep tcsh/bash;chsh;     restore back to bash shell (/bin/bash)
 
 
 
