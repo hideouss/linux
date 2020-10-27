@@ -7,7 +7,8 @@ usb drive not detected after erase disk in linux ?
 lose partition  create NTFS partition    create disk partition in linux
 create a disk partition in linux ? https://docs.fedoraproject.org/en-US/quick-docs/creating-a-disk-partition-in-linux/
 when plug into a usb if it has been partitioned and formated it will list in pc's file manager
-'lsblk': list block devices  list partition information                  dmesg | tail: display recent system log entries including kernel events
+'lsblk': list block devices  list partition information         
+dmesg | tail: display recent system log entries including kernel events
 delete and format a usb drive in  linux : 
 Ext4: only in linux    NTFS: only in windows   FAT:all systems and devices
 when a usb drive plug into linux  it mount automatically in  /run/media/usr_name/usb_name   'lsusb'   'mount'
@@ -16,9 +17,25 @@ linux kde partition manager
 a usb drive whether be detected no relation with if it show up in file manager 
 mount a partion usb drive in linux : create mount point
 mount relation partition   first partion then could mount ???
-mount /dev/sda2 /home/z/mount_point       cheak mount information : mount | grep sda2     if has mounted  usr could access usb data    cd /home/z/mount_point
+mount /dev/sda2 /home/z/mount_point       cheak mount information : mount | grep sda2     if has mounted  usr could access usb data 
+cd /home/z/mount_point
 unmount /home/z/mount_point      
 permanent mount :   edit /dev/fstab  file     one: /dev/sda2    /home/z/mount_point    vfat defaulits 0 0
 two: /dev/disk/by-uuid/uuid_number_replace    /home/z/mount_point    vfat  0  0   
 mount -a    mount all not mounted devices 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
