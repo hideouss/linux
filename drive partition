@@ -23,7 +23,7 @@ unmount /home/z/mount_point
 permanent mount :   edit /dev/fstab  file     one: /dev/sda2    /home/z/mount_point    vfat defaulits 0 0
 two: /dev/disk/by-uuid/uuid_number_replace    /home/z/mount_point    vfat  0  0   
 mount -a    mount all not mounted devices 
-
+/dev/sda  /dev/sdb  /dev/sdc    partition table standard : MBR(ms-dos)  gpt
 
 
 
