@@ -54,7 +54,7 @@ if i write tree in index it will permanent store it will not lose       if want 
 switch branch : git checkout branch   
 reference: git log commit_SHA-1   but must remember HSA_1  so just edit  .git/refs/heads/name   
 git update-ref refs/heads/master commit_SHA-1
-
+commit : top-level tree   parent commit
  
  
  
