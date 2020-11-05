@@ -21,3 +21,14 @@ sudo dnf install tcsh;cat /etc/shells | grep tcsh/bash;chsh;     restore back to
 
 
 
+
+
+
+
+
+
+
+
+
+
+
