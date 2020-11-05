@@ -1,59 +1,14 @@
-1:sign up github account 
-2:create a new repository  just type repository name    select public   
-3:in local terminal git      create a directory 
-4:change into directory
-5:create a file like README.md and write soemthing in it      for example   echo "#demo" >> README.md
-6:git init       git add README.md
-7:make a commit   git commit -m "commit message"   better always write a message in commit
-8:connect local to remote like github     git remote add url_replace_name url(like github repository)
-9:push local code to remote like github    git push -u url_replace_name master     need username and password
-2:modify a file      first change local terminal file content   now could run git diff see the differ  (if has runed git add now must git diff --cache see differ) 
-2:git add modify_file_name       git commit -m "commit message"     git push -u url_replace_name master
-3:add a file     first add a file in local terminal      git add add_file_name      git commit -m "commit message"      git push -u replace_url_name master 
-4:delete a file    fitst delete local file   rm file_name      git add file_name    git commit -m "commit message"   git push -u replace_url_name master 
-actual important is know who is  under verison control  like has a .git file    delete .git  will quit verison control  
-git revert to past commit(version):
-see git special commit content in snapshot :
-git could revert commit or stage area or work tree:
-current directory is under git manage  because of .git  whether sub directory is under git manage:
-git add wrong information so how to manage stage area:
-why not direct commit has to add to staging area then commit  stage differ commit  why i need stage before commit:      
-just add but not commit what it looks like:
-if i new a file in git but not track it then i delete the file  the file will lose
-local git repository connect to remote repository: git remote
-when i clone a repository from remote server git automatically remember connection for me  it auto calls remote as origi   
-git add could choose what to add but git commit only whole not piece like other souce manage tools  it's snapshot
+local environemnt : working directory   staging area    local repository  
+server : remote repository    
+file : untracked     tracked: modified unmodified staged     
 git restore to git know state 
-SHA1 40-digits 0x form:calculate object content 
-echo "s" >> file11.txt | git hash-object --stdin; echo "s" | git hash-object --stdin;
-SHA1 hashes based on content if content is same it  will be same  
-.git's objects : blob(binary data) tree commit tag
-blob(single file):git show SHA-1    tree(contain pointers to blobs trees):git ls-tree SHA-1 
-commit(tree parent author commiter commit message): git show -s --pretty=raw SHA-1
-.git:tree -L 1:   HEAD:pointer to current branch     refs:pointers to branches
-git configure username and e-mail  ~/.gitconfig     git clone could operate multi-protocol(transfer protocol) ssh://  https:// git://
-git commit -a : shoutcut could use but except new file   
-git diff   git diff --cached
-git branch:list branches   git branch branch1:create a new branch named branch1    git checkout branch1 : switch to branch branch1
-git merge branch1;git branch -d/D branch1;
+git commit -a : shoutcut could use but except new file 
 normally,a merge results in a merge commit with two parents   but if a current branch has not diverged from the other:fast forward merge
-in a word   when i merged whether has a new commit         asterisk + brace expansion(how to operate like this just see the source code)
-see objects database content : git cat-file -p SHA-1     see object type : git cat-file -t SHA-1
-create a new file and save its content in database: echo 'version 1' > test.txt; git hash-object -w test.txt;
-git blob only store file content not store file name            blob pointer point to its content no file name 
-git update-index --add filename(if not save a file already with hash-object it will create automatically for you)
-git ls-files(see what add to index)    
+asterisk + brace expansion(how to operate like this just see the source code
+blob pointer point to file content no file name     
 index is only temporary could add(including delet operation) files when index changes the prevoius state will lose how to save 
-snapshot permanently?   git index is temporary snapshot of repository
-blob point to file content     tree point to blob and tree         git write-tree  
-if start at a tree could rebuild everything it points to       
-echo "commit message" | git commit-tree tree-SHA1
-1: git update-index --add file1.txt    2:git write-tree  generate tree SHA1 3: echo "commit message" | git commit-tree tree-SHA1
-if  my files store in objects database i will not lose it otherwise i will lose it 
-if i write tree in index it will permanent store it will not lose       if want to connect trees create commit
-switch branch : git checkout branch   
-reference: git log commit_SHA-1   but must remember HSA_1  so just edit  .git/refs/heads/name   
-git update-ref refs/heads/master commit_SHA-1
+git index is temporary snapshot of repository        
+if  my files store in objects database i will not lose it otherwise i will lose it        
 commit : top-level tree   parent commit
  
  
