@@ -1,11 +1,10 @@
 key is   couce code  to  executable(bin)   not revert
 c: gcc hi.c -o hi_c
-divide souce code in multi file:
-bash script:#!bash interpreter path(nash bang)  chmod a+x hi     ./hi     
-bash shell(default installed) is only a type of unix shell    bash script is a type of shell script    bash is a unix shell
-module :
+divide souce code in multi file:impossiple to put source code just in one file 
+bash script:#!(hash bang)bash interpreter path  chmod a+x(set file permission)hi    ./hi     
+bash shell(default installed) is only a type of unix shell    bash script is a type of shell script  
 shell script:
-python:#!python interpreter path(bash bang  which python  whereis python)  chmod a+x .py    ./hi.py
+python:#!(hash bang)python interpreter path(which python;whereis python;)  chmod a+x .py    ./hi.py
 no hash bang   chmod a+x hi.py   python hi.py         
 module:in python interpreter   import hi(module name)
 use module function syntax:mudule_name.function_name    built-in module   built-in function
@@ -13,7 +12,6 @@ module could contain function  all type variables(array dictionary object)
 rename module: import module as module_rename     
 import module parts:from module import parts_name but now   when use parts code  no not use module name use parts_name  
 package:
-javascript:
 switch different shell : bash shell syntax like bash syntax     tcsh shell syntax like c++ syntax    
 sudo dnf install tcsh;cat /etc/shells | grep tcsh/bash;chsh;     restore back to bash shell (/bin/bash)
 
