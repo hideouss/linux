@@ -1,1 +1,1 @@
-unzip;tar -xf .xz;tar -zxf .gz
+unzip .zip;tar -xf tar.xz;tar -zxf tar.gz
