@@ -24,7 +24,7 @@ permanent mount :   edit /dev/fstab  file     one: /dev/sda2    /home/z/mount_po
 two: /dev/disk/by-uuid/uuid_number_replace    /home/z/mount_point    vfat  0  0   
 mount -a    mount all not mounted devices 
 /dev/sda  /dev/sdb  /dev/sdc    partition table standard : MBR(ms-dos)  gpt
-
+win10:  1,file manager删除卷 2，disk genius convert to GUID partition table 3, file manager 新建卷
 
 
 
